@@ -1,6 +1,8 @@
 # CATopalian JS Object Tutorials
 These JS tutorials teach flat objects, object of objects, array of objects, and much more.
 
+![001](src/media/textures/001.png)
+
 ---
 
 How to Download this App
