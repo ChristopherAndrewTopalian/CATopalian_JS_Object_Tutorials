@@ -1,4 +1,4 @@
-// object_of_objects_005.js
+// object_of_objects_007.js
 
 let pokemon = {
     Charizard: 

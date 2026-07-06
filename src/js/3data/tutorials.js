@@ -62,6 +62,11 @@ const TUTORIALS = [
     },
 
     {
+        name: 'Object of Objects 008',
+        url: 'src/tutorials/javascript/object_of_objects/object_of_objects_008.js'
+    },
+
+    {
         name: 'Array of Objects 001',
         url: 'src/tutorials/javascript/array_of_objects/aoo_001.js'
     },
