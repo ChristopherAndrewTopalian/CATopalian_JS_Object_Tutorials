@@ -7,17 +7,17 @@ let pokemon = {
         color: 'Yellow' 
     },
 
-    Charazar: 
+    Charizard: 
     {
         type: 'Fire',
-        color: 'Yellow'
+        color: 'Red'
     }
 };
 
 console.log(JSON.stringify(pokemon));
 
 /*
-{"Pikachu":{"type":"Electric","color":"Yellow"},"Charazar":{"type":"Fire","color":"Yellow"}}
+{"Pikachu":{"type":"Electric","color":"Yellow"},"Charizard":{"type":"Fire","color":"Red"}}
 */
 
 //----//

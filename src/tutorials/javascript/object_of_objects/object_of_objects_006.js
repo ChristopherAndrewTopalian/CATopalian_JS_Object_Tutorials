@@ -1,22 +1,38 @@
-// object_of_objects_003.js
+// object_of_objects_005.js
 
 let pokemon = {
+    Charizard: 
+    {
+        type: 'Fire',
+        color: 'Red'
+    },
+
     Pikachu:
     {
         type: 'Electric',
         color: 'Yellow' 
     },
-
-    Charizard: 
-    {
-        type: 'Fire',
-        color: 'Red'
-    }
 };
 
-console.log(pokemon.Pikachu);
+// sort by type
+//let pokemonSortedByType = Object.entries(pokemon)
+//    .sort((a, b) => a[1].type.localeCompare(b[1].type));
+
+//console.log(pokemonSortedByType);
+
+for (let key in pokemon)
+{
+    console.log(pokemon[key]);
+}
 
 /*
+Object { type: "Fire", color: "Red" }
+​
+color: "Red"
+​
+type: "Fire"
+
+
 Object { type: "Electric", color: "Yellow" }
 ​
 color: "Yellow"

@@ -1,27 +1,42 @@
-// object_of_objects_001.js
+// object_of_objects_005.js
 
 let pokemon = {
+    Charizard: 
+    {
+        type: 'Fire',
+        color: 'Red'
+    },
+
     Pikachu:
     {
         type: 'Electric',
         color: 'Yellow' 
     },
-
-    Charizard: 
-    {
-        type: 'Fire',
-        color: 'Red'
-    }
 };
 
-console.log(pokemon);
+for (let key in pokemon)
+{
+    console.log(key);
+    console.log(pokemon[key]);
+}
 
 /*
-Object { Pikachu: {…}, Charizard: {…} }
+Charizard
+Object { type: "Fire", color: "Red" }
 ​
-Charizard: Object { type: "Fire", color: "Red" }
+color: "Red"
 ​
-Pikachu: Object { type: "Electric", color: "Yellow" }
+type: "Fire"
+​
+<prototype>: Object { … }
+
+
+Pikachu
+Object { type: "Electric", color: "Yellow" }
+​
+color: "Yellow"
+​
+type: "Electric"
 ​
 <prototype>: Object { … }
 */

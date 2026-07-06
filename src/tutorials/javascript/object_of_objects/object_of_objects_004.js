@@ -7,10 +7,10 @@ let pokemon = {
         color: 'Yellow' 
     },
 
-    Charazar: 
+    Charizard: 
     {
         type: 'Fire',
-        color: 'Yellow'
+        color: 'Red'
     }
 };
 

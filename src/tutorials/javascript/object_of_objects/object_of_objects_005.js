@@ -1,10 +1,10 @@
 // object_of_objects_005.js
 
 let pokemon = {
-    Charazar: 
+    Charizard: 
     {
         type: 'Fire',
-        color: 'Yellow'
+        color: 'Red'
     },
 
     Pikachu:
@@ -25,7 +25,7 @@ Array [ (2) […], (2) […] ]
 ​
 0: Array [ "Pikachu", {…} ]
 ​
-1: Array [ "Charazar", {…} ]
+1: Array [ "Charizard", {…} ]
 ​
 length: 2
 */
