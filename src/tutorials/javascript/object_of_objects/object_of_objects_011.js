@@ -55,22 +55,10 @@ let cortex =
     }
 };
 
-console.log(cortex);
+console.log(cortex.bird.types[5]);
 
 /*
-Object { bird: {…}, robin: {…}, "blue jay": {…}, worm: {…}, tree: {…} }
-​
-bird: Object { root: (2) […], aka: (3) […], category: (6) […], … }
-​
-"blue jay": Object { root: "bird", attributes: (4) […], actions: (4) […], … }
-​
-robin: Object { root: "bird", related: (3) […], colors: (5) […], … }
-​
-tree: Object { root: (3) […], category: "plant", attributes: (4) […], … }
-​
-worm: Object { root: (2) […], category: "invertebrate", related: (3) […], … }
-​
-<prototype>: Object { … }
+crane
 */
 
 //----//

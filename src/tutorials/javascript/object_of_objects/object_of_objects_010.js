@@ -1,4 +1,4 @@
-// object_of_objects_010.js
+// object_of_objects_008.js
 
 let cortex =
 {
@@ -55,22 +55,36 @@ let cortex =
     }
 };
 
-console.log(cortex);
+console.log(cortex.bird.actions);
 
 /*
-Object { bird: {…}, robin: {…}, "blue jay": {…}, worm: {…}, tree: {…} }
+Array(11) [ "walk", "hop", "fly", "chirp", "squawk", "build nest", "mate", "hunt worms", "eat worms", "feed offspring", … ]
 ​
-bird: Object { root: (2) […], aka: (3) […], category: (6) […], … }
+0: "walk"
 ​
-"blue jay": Object { root: "bird", attributes: (4) […], actions: (4) […], … }
+1: "hop"
 ​
-robin: Object { root: "bird", related: (3) […], colors: (5) […], … }
+2: "fly"
 ​
-tree: Object { root: (3) […], category: "plant", attributes: (4) […], … }
+3: "chirp"
 ​
-worm: Object { root: (2) […], category: "invertebrate", related: (3) […], … }
+4: "squawk"
 ​
-<prototype>: Object { … }
+5: "build nest"
+​
+6: "mate"
+​
+7: "hunt worms"
+​
+8: "eat worms"
+​
+9: "feed offspring"
+​
+10: "migrate"
+​
+length: 11
+​
+<prototype>: Array []
 */
 
 //----//

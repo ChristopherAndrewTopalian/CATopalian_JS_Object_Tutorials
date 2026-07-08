@@ -1,4 +1,4 @@
-// object_of_objects_010.js
+// object_of_objects_009.js
 
 let cortex =
 {
@@ -55,22 +55,58 @@ let cortex =
     }
 };
 
-console.log(cortex);
+console.log(cortex.bird.types);
 
 /*
-Object { bird: {…}, robin: {…}, "blue jay": {…}, worm: {…}, tree: {…} }
+Array(22) [ "blackbird", "blue jay", "bluebird", "canary", "chicken", "crane", "crow", "eagle", "falcon", "hawk", … ]
 ​
-bird: Object { root: (2) […], aka: (3) […], category: (6) […], … }
+0: "blackbird"
 ​
-"blue jay": Object { root: "bird", attributes: (4) […], actions: (4) […], … }
+1: "blue jay"
 ​
-robin: Object { root: "bird", related: (3) […], colors: (5) […], … }
+2: "bluebird"
 ​
-tree: Object { root: (3) […], category: "plant", attributes: (4) […], … }
+3: "canary"
 ​
-worm: Object { root: (2) […], category: "invertebrate", related: (3) […], … }
+4: "chicken"
 ​
-<prototype>: Object { … }
+5: "crane"
+​
+6: "crow"
+​
+7: "eagle"
+​
+8: "falcon"
+​
+9: "hawk"
+​
+10: "hummingbird"
+​
+11: "Owl"
+​
+12: "parrot"
+​
+13: "pelican"
+​
+14: "penguin"
+​
+15: "robin"
+​
+16: "sparrow"
+​
+17: "starling"
+​
+18: "stork"
+​
+19: "swam"
+​
+20: "turkey"
+​
+21: "woodpecker"
+​
+length: 22
+​
+<prototype>: Array []
 */
 
 //----//
