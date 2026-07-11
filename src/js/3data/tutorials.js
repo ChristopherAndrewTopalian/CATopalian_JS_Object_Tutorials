@@ -97,6 +97,11 @@ const TUTORIALS = [
     },
 
     {
+        name: 'Object of Objects 015 Add by Factory and Save',
+        url: 'src/tutorials/javascript/object_of_objects/object_of_objects_015_add_by_factory_and_save.js'
+    },
+
+    {
         name: 'Array of Objects 001',
         url: 'src/tutorials/javascript/array_of_objects/aoo_001.js'
     },
