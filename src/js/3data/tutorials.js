@@ -67,6 +67,26 @@ const TUTORIALS = [
     },
 
     {
+        name: 'Object of Objects 009',
+        url: 'src/tutorials/javascript/object_of_objects/object_of_objects_009.js'
+    },
+
+    {
+        name: 'Object of Objects 010',
+        url: 'src/tutorials/javascript/object_of_objects/object_of_objects_010.js'
+    },
+
+    {
+        name: 'Object of Objects 011',
+        url: 'src/tutorials/javascript/object_of_objects/object_of_objects_011.js'
+    },
+
+    {
+        name: 'Object of Objects 012 Save',
+        url: 'src/tutorials/javascript/object_of_objects/object_of_objects_012_save.js'
+    },
+
+    {
         name: 'Array of Objects 001',
         url: 'src/tutorials/javascript/array_of_objects/aoo_001.js'
     },
