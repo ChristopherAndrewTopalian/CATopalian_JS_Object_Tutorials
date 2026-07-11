@@ -46,7 +46,7 @@ world['rose_bush_001'] = {
     y: 245,
     collidable: true
 };
-*
+*/
 
 // Keyboard Controls
 document.addEventListener('keydown', function(event)
