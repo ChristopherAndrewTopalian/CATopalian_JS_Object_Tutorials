@@ -29,9 +29,11 @@ let world = {
 //----//
 
 // how to delete 'rock_01'
+// using dot notation
 delete world.rock_01;
 
-// can also use
+// how to delete 'rock_01'
+// using bracket notation
 // delete world['rock_01'];
 
 // Keyboard Controls
