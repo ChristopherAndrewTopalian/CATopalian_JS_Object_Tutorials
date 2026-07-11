@@ -1,4 +1,4 @@
-// object_of_objects_013_add_and_save.js
+// object_of_objects_014_delete_and_save.js
 
 let world = {
     "tree_01":
@@ -28,25 +28,11 @@ let world = {
 
 //----//
 
-// we can add a rose_bush_001 
-// using dot notation
-world.rose_bush_001 = {
-    type: "flower",
-    x: 457,
-    y: 245,
-    collidable: true
-};
+// how to delete 'rock_01'
+delete world.rock_01;
 
-// or we can use brackets notation instead
-// to add our object
-/*
-world['rose_bush_001'] = {
-    type: "flower",
-    x: 457,
-    y: 245,
-    collidable: true
-};
-*
+// can also use
+// delete world['rock_01'];
 
 // Keyboard Controls
 document.addEventListener('keydown', function(event)
@@ -73,7 +59,7 @@ and also print it to console!
 */
 
 /*
-World Saved! 7/11/2026, 10:37:01 AM
+World Saved! 7/11/2026, 10:44:15 AM
 {
   "tree_01": {
     "type": "oak",
@@ -81,23 +67,11 @@ World Saved! 7/11/2026, 10:37:01 AM
     "y": 200,
     "collidable": true
   },
-  "rock_01": {
-    "type": "boulder",
-    "x": 300,
-    "y": 150,
-    "collidable": true
-  },
   "spawn_point": {
     "type": "portal",
     "x": 0,
     "y": 0,
     "active": false
-  },
-  "rose_bush_001": {
-    "type": "flower",
-    "x": 457,
-    "y": 245,
-    "collidable": true
   }
 }
 */
