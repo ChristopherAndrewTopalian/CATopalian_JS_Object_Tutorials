@@ -1,4 +1,4 @@
-// object_of_objects_008.js
+// object_of_objects_010.js
 
 let cortex =
 {

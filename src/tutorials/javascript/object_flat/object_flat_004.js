@@ -9,8 +9,22 @@ pokemon.squirtle = 'water';
 
 console.log(pokemon.squirtle);
 
+console.log(pokemon);
+
 /*
 water
+*/
+
+/*
+Object { pikachu: "electric", charazar: "fire", squirtle: "water" }
+
+charazar: "fire"
+
+pikachu: "electric"
+
+squirtle: "water"
+
+<prototype>: Object { … }
 */
 
 //----//
