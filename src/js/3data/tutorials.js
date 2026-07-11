@@ -87,6 +87,11 @@ const TUTORIALS = [
     },
 
     {
+        name: 'Object of Objects 013 Add and Save',
+        url: 'src/tutorials/javascript/object_of_objects/object_of_objects_013_add_and_save.js'
+    },
+
+    {
         name: 'Array of Objects 001',
         url: 'src/tutorials/javascript/array_of_objects/aoo_001.js'
     },
@@ -96,3 +101,10 @@ const TUTORIALS = [
         url: 'src/tutorials/javascript/array_of_objects/aoo_002.js'
     },
 ];
+
+// Dedicated to God the Father
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
+// https://github.com/ChristopherTopalian
+// https://github.com/ChristopherAndrewTopalian
+// https://sites.google.com/view/CollegeOfScripting
+
