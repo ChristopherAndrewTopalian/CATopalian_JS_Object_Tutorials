@@ -107,6 +107,11 @@ const TUTORIALS = [
     },
 
     {
+        name: 'Object of Objects 017 Load JSON',
+        url: 'src/tutorials/javascript/object_of_objects/object_of_objects_017_load_json.js'
+    },
+
+    {
         name: 'Array of Objects 001',
         url: 'src/tutorials/javascript/array_of_objects/aoo_001.js'
     },
